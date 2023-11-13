@@ -2,12 +2,12 @@
 
 /**
  * @var $this yii\web\View
- * @var $model \app\models\History
+ * @var $model \app\infrastructure\models\History
  * @var $dataProvider yii\data\ActiveDataProvider
  * @var $exportType string
  */
 
-use app\models\History;
+use app\infrastructure\models\History;
 use app\widgets\Export\Export;
 use app\widgets\HistoryList\helpers\HistoryListHelper;
 

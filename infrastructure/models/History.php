@@ -1,8 +1,8 @@
 <?php
 
-namespace app\models;
+namespace app\infrastructure\models;
 
-use app\models\traits\ObjectNameTrait;
+use app\infrastructure\models\traits\ObjectNameTrait;
 use Yii;
 use yii\db\ActiveQuery;
 use yii\db\ActiveRecord;

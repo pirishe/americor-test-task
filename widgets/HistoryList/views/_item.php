@@ -1,9 +1,9 @@
 <?php
-use app\models\Call;
-use app\models\Customer;
-use app\models\History;
-use app\models\search\HistorySearch;
-use app\models\Sms;
+use app\infrastructure\models\Call;
+use app\infrastructure\models\Customer;
+use app\infrastructure\models\History;
+use app\infrastructure\models\search\HistorySearch;
+use app\infrastructure\models\Sms;
 use app\widgets\HistoryList\helpers\HistoryListHelper;
 use yii\helpers\Html;
 
