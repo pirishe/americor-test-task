@@ -1,13 +1,13 @@
 <?php
 
-namespace app\models\traits;
+namespace app\infrastructure\models\traits;
 
-use app\models\Call;
-use app\models\Customer;
-use app\models\Fax;
-use app\models\Sms;
-use app\models\Task;
-use app\models\User;
+use app\infrastructure\models\Call;
+use app\infrastructure\models\Customer;
+use app\infrastructure\models\Fax;
+use app\infrastructure\models\Sms;
+use app\infrastructure\models\Task;
+use app\infrastructure\models\User;
 
 trait ObjectNameTrait
 {

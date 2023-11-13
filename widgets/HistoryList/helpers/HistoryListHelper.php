@@ -2,9 +2,9 @@
 
 namespace app\widgets\HistoryList\helpers;
 
-use app\models\Call;
-use app\models\Customer;
-use app\models\History;
+use app\infrastructure\models\Call;
+use app\infrastructure\models\Customer;
+use app\infrastructure\models\History;
 
 class HistoryListHelper
 {

@@ -3,7 +3,7 @@
 namespace app\persistence\action;
 
 use app\domain;
-use app\models\search\HistorySearch;
+use app\infrastructure\models\search\HistorySearch;
 
 final class EventsProviderAction implements domain\EventsProviderInterface
 {
