@@ -7,7 +7,7 @@ $basePath = dirname(__DIR__);
 
 $config = [
     'id' => 'basic',
-    'basePath' => dirname(__DIR__),
+    'basePath' => dirname(dirname(__DIR__)),
     'bootstrap' => ['log'],
     'catchAll' => ['default/index'],
     'controllerNamespace' => 'app\\infrastructure\\controller',
