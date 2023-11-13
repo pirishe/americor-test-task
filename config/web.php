@@ -3,10 +3,19 @@
 $params = require __DIR__ . '/params.php';
 $db = require __DIR__ . '/db.php';
 
+$basePath = dirname(__DIR__);
+
 $config = [
     'id' => 'basic',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
+    'catchAll' => ['default/index'],
+    'controllerNamespace' => 'app\\infrastructure\\controller',
+    'container' => [
+        'definitions' => [
+            \app\domain\EventsProviderInterface::class => \app\persistence\action\EventsProviderAction::class,
+        ],
+    ],
     'aliases' => [
         '@bower' => '@vendor/bower-asset',
         '@npm'   => '@vendor/npm-asset',
